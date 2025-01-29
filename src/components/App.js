@@ -3,7 +3,7 @@ import Header from "./Header";
 import Loader from "./Loader";
 import Error from "./Error";
 import Question from "./Question";
-import "./index.css";
+import "../index.css";
 import { useEffect, useReducer } from "react";
 import StartScreen from "./StartScreen";
 

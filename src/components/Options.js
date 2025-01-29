@@ -1,3 +1,5 @@
+import "../index.css";
+
 function Options() {
   return (
     <div className="options">
