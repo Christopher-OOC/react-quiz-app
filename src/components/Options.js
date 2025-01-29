@@ -1,6 +1,6 @@
 import "../index.css";
 
-function Options() {
+function Options({ question }) {
   return (
     <div className="options">
       {question.options.map((option) => (

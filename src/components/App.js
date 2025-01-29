@@ -12,6 +12,7 @@ const initialState = {
   // 'loading', 'error', 'ready', 'active', 'finished',
   status: "loading",
   index: 0,
+  answer: null,
 };
 
 function reducer(state, action) {
@@ -33,6 +34,12 @@ function reducer(state, action) {
         ...state,
         status: "active",
       };
+    }
+    case "newAnswer": {
+      return {
+        ...state,
+        answer: 
+      }
     }
     default: {
       throw new Error("Action unknown");
